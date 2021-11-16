@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background-image: url(https://thumbs.dreamstime.com/b/muffin-dessert-black-background-sugar-powder-side-view-muffin-dessert-black-background-sugar-powder-side-view-194291018.jpg);
+font-family: 'Yuji Syuku', serif;
+}
+header{
+    height: 100px;
+}
+nav{
+    margin-top: 40px;
+}
+ul{
+    list-style: none;
+    float: right;
+}
+nav>ul>li{
+    margin-right: 30px;
+    padding: 10px 20px;
+    display: inline;
+    float: left;
+}
+li>a{
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+    color: rgb(228, 220, 220);
+    
+}
+.logo{
+    margin-left: 30px;
+    float: left;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.main-title{
+    font-size: 60px;
+    color: rgb(228, 220, 220);
+}
+.btn-round{
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(228, 220, 220);;
+    display: block;
+    padding: 10px 30px;
+    width: fit-content;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid rgb(228, 220, 220);;
+    margin-right: 10px;
+}
+.btn-round-purple{
+    font-size: medium;
+    text-decoration: none;
+    color: plum;
+    display: block;
+    padding: 10px 30px;
+    width: fit-content;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid plum;
+    margin-right: 10px;
+}
+.btns{
+    display: flex;
+}
+.titles{
+ letter-spacing: 6px;
+}
+.purple{
+    color: plum;
+}
+main{
+    margin-top: 12%;
+    margin-left: 5%;
+}
